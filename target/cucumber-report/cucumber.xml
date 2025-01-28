@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="28.297" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="ebay website" name="Verify search functionality - #1.1" time="28.172">
+<system-out><![CDATA[
+Given Open browser..........................................................passed
+Given Navigate to BH home page..............................................passed
+When Click on search icon...................................................passed
+Then Verify if search field is visible on the page..........................passed
+And Search for "Employee Education in 2018: Strategies to Watch"............passed
+Then Verify if the first search result is exact match to what you typed into search "Employee Education in 2018: Strategies to Watch".passed
+]]></system-out>
+</testcase>
+</testsuite>
