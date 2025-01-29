@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="28.297" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="ebay website" name="Verify search functionality - #1.1" time="28.172">
+<testsuite name="Cucumber" time="70.449" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Find a Center option functionality" name="Verify comments - #1.1" time="37.351">
 <system-out><![CDATA[
-Given Open browser..........................................................passed
+Given Navigate to BH home page..............................................passed
+When Click on Find a Center option..........................................passed
+Then Verify that "/child-care-locator" as a part of its URL.................passed
+And Search location as  "New York"..........................................passed
+Then verify if a number of found centers is the same as a number of centers displayed in the list.passed
+Then Click on the first center on the list..................................passed
+Then Verify whether the center name and the address are the same in the list and in the popup.passed
+]]></system-out>
+</testcase>
+<testcase classname="BrightHorizons website" name="Verify search functionality - #1.1" time="32.939">
+<system-out><![CDATA[
 Given Navigate to BH home page..............................................passed
 When Click on search icon...................................................passed
 Then Verify if search field is visible on the page..........................passed

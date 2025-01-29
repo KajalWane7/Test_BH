@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "steps",
-        tags = "@UICode",
+        tags = "@Test1 or @Test2",
         plugin = {
                 "pretty",
                 "json:target/cucumber-report/cucumber.json",

@@ -1,8 +1,6 @@
-Feature: ebay website
+Feature: BrightHorizons website
 
-  Background:
-    Given Open browser
-  @UICode
+  @Test1
   Scenario Outline: Verify search functionality
     Given Navigate to BH home page
     When Click on search icon
